@@ -45,18 +45,18 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "React Native Developer",
+  //   icon: mobile,
+  // },
+  // {
+  //   title: "Backend Developer",
+  //   icon: backend,
+  // },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -262,4 +262,5 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const about = "Developer with 5+ years of experience in React, Typescript, GraphQL front-end stack. Passionate in creating consistent UI built using modular components with aim towards best practices in a design system and improve developer experience."
+export { services, technologies, experiences, testimonials, projects, about };
