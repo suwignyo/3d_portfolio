@@ -33,6 +33,9 @@ import varicent from "./company/varicent_logo.png";
 import flipgive from "./company/flipgive_logo.png";
 import fourseasons from "./company/fs_logo.png";
 
+import resume from "./company/resume_logo.png";
+import linkedin from "./company/linkedin.png";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -71,5 +74,7 @@ export {
   fourseasons,
   grapqhl,
   ruby,
-  storybook
+  storybook,
+  resume,
+  linkedin
 };

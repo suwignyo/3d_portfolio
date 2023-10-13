@@ -24,7 +24,9 @@ import {
   fourseasons,
   grapqhl,
   storybook,
-  ruby
+  ruby,
+  resume,
+  linkedin
 } from "../assets";
 
 export const navLinks = [
@@ -41,6 +43,24 @@ export const navLinks = [
     title: "Contact",
   },
 ];
+
+const contacts = [
+  {
+    title: "Resume",
+    icon: resume,
+    link: "https://drive.google.com/file/d/16BEKE56LgWcSC3LccjiDzAOvc6C28S5l/view?usp=sharing"
+  },
+  {
+    title: "Linkedin",
+    icon: linkedin,
+    link: "https://www.linkedin.com/in/gerry-suwignyo-85a0b3a3/"
+  },
+  {
+    title: "Github",
+    icon: git,
+    link: "https://github.com/suwignyo"
+  }
+]
 
 const services = [
   {
@@ -238,4 +258,4 @@ const projects = [
 ];
 
 const about = "Developer with 5+ years of experience in React, Typescript, GraphQL front-end stack. Passionate in creating consistent UI built using modular components with aim towards best practices in a design system and improve developer experience."
-export { services, technologies, experiences, testimonials, projects, about };
+export { services, technologies, experiences, testimonials, projects, about, contacts };
