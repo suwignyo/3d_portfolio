@@ -21,10 +21,17 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import grapqhl from "./tech/graphql.png";
+import storybook from "./tech/storybook.svg";
+import ruby from "./tech/ruby.png";
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import varicent from "./company/varicent_logo.png";
+import flipgive from "./company/flipgive_logo.png";
+import fourseasons from "./company/fs_logo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +66,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  varicent,
+  flipgive,
+  fourseasons,
+  grapqhl,
+  ruby,
+  storybook
 };

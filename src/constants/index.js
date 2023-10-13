@@ -15,14 +15,16 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  varicent,
+  flipgive,
+  fourseasons,
+  grapqhl,
+  storybook,
+  ruby
 } from "../assets";
 
 export const navLinks = [
@@ -81,90 +83,63 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "GraphQL",
+    icon: grapqhl,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Storybook",
+    icon: storybook,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "Ruby",
+    icon: ruby,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Frontend Developer",
+    company_name: "Varicent",
+    icon: varicent,
+    iconBg: "#2B4DED",
+    date: "June 2021 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Build multi-page forms with complex interactions and validations","Setup front-end apollo types workflow to ensure typings are up to date",
+      "Refactor and componentize front-end components for better readability",
+      "Use linters to check for unit testing flaws and update it to use best practices",
+      "Setup multi select on a data grid  to allow bulk operation of tree structured data",
+      "Standardize file upload UI across the app"
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Frontend Developer",
+    company_name: "Flipgive",
+    icon: flipgive,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Nov 2018 - June 202",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed an alpha product for FlipGive Budget app in NextJs, TypeScript, GraphQL"
+      ,"Responsible for most the front-end of new features of the web app in React and Ruby"
+      ,"Converted server side Ruby views to React for smoother client-side interactions"
+      ,"Proficient in GraphQL queries and mutation to interact with the back-end"
+      ,"Completed an external contract project using their styling standards"
+      ,"Built a new checkout process for gift card purchases that is responsible for 30% of company revenue"
+      ,"Setup front-end components in Storybook following atomic design methodology to split up components"
+      ,"Implement a beneficiary validation process that allows user to get cheque directly to their bank account rather than physical mailed cheques"
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Desktop Support Analyst",
+    company_name: "Four Seasons Hotels and Resorts",
+    icon: fourseasons,
+    iconBg: "#000",
+    date: "Aug 2017 - June 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Responsible for supporting ~600 on site and remote users"
+      ,"Update testing and patching for Windows 7 and 10 Managed corporate software and hardware assets throughout the yearly technology lifecycle"
+      ,"Provided initial support for LAN / WAN / WLAN infrastructure connectivity"
+      ,"Identified and escalated critical hardware issue with company's Dell representative"
+      ,"Provisioned laptop/desktop for corporate employees"
     ],
   },
 ];
