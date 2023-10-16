@@ -36,7 +36,7 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   return (
-    <div className="flex justify-between">
+    <div className="justify-between gap-10 grid grid-cols-1 sm:grid-cols-[3fr_1fr]">
       <div>
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>Introduction</p>
